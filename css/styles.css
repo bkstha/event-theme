@@ -1,0 +1,265 @@
+/*general*/
+html, body {
+    font-family: 'Muli', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+form .form-group label {
+    font-size: 12px;
+    color: #b9b4b4;
+    margin-bottom: 5px;
+}
+
+form .form-group input {
+    border: 1px solid #c7b5b5;
+    border-radius: 0;
+    font-size: 16px;
+    height: 40px;
+}
+
+.btn {
+    height: 40px;
+    border-radius: 0;
+}
+
+.google-btn {
+    background: #3483fc;
+    color: #fff;
+    border: none;
+}
+
+.facebook-btn {
+    background: #3b5998;
+    color: #fff;
+    border: none;
+}
+
+/*helper*/
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-shadow {
+    -webkit-box-shadow: 2px 7px 26px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 7px 26px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 7px 26px -8px rgba(0,0,0,0.75);
+}
+
+.or-divider {
+    height: 16px;
+    font-size: 16px;
+    line-height: 0;
+    color: #aaa;
+    position: relative;
+    width: 100%;
+    margin: 15px auto;
+}
+.or-divider hr{
+    background-color: #ddd;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+
+.or-divider span {
+    padding: 15px;
+    border-radius: 33%;
+    background-color: #fff;
+    font-size: inherit;
+    color: inherit;
+    position: absolute;
+}
+
+/*headcer*/
+.header-wrapper {
+    background-size: cover;
+    background: url("../assets/images/audience-blur-bride-and-groom-1819179.jpg") no-repeat center;
+    height: 90vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #00000080;
+    z-index: 50;
+}
+
+.header-nav {
+    padding: 23px 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 60;
+    background-image: linear-gradient(#f137525c, #ff520000);
+}
+
+.logo-wrapper {
+    height: 42px;
+    float: left;
+}
+
+.logo-wrapper img {
+    position: relative;
+    height: 100%;
+}
+
+.login-button {
+    padding: 13px 30px;
+    height: 42px;
+    float: right;
+    background: #fd3d349c;
+    border: 1px solid #fd3d349c;
+    color: #fffdfd;
+    z-index: 60;
+    font-size: 16px;
+    line-height: 0;
+}
+
+.login-button:hover,
+.login-button:focus,
+.login-button:active {
+    background-color: #fd3d34;
+    color: #fff1f2;
+    border-color: #fd3d34;
+}
+
+.header-text-box {
+    position: absolute;
+    top: 50%;
+    transform : translateY(-50%);
+    width: 100%;
+    text-align: center;
+    z-index: 60;
+}
+
+.header-text-box h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.header-text-box h2 {
+    font-size: 24px;
+    color: #f1ece8;
+}
+
+.header-text-box h2 strong {
+    color: #fd3d34;
+}
+
+
+/*header search box*/
+.search-box {
+    position: absolute;
+    width: 100%;
+    padding: 18px 16px;
+    background-color: #00000099;
+    z-index: 60;
+    bottom: 0;
+}
+
+.search-box .input-event {
+    padding: 12px;
+}
+.search-box .header-search-form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.search-box .header-search-form input:focus,
+.search-box .header-search-form input:active,
+.search-box .header-search-form input:hover {
+    border: none;
+    outline: none;
+}
+
+.search-box .header-search-form [class^="col-"] {
+    background-color: #fff;
+    padding: 12px;
+    border-right: 2px solid #ffd8dc;
+    height: 40px;
+    line-height: 17px;
+    position: relative;
+}
+
+.search-box .header-search-form .search-button {
+    width:  100%;
+    height: 100%;
+    background-color: #fd3d34;
+    color: #fff;
+    border: 1px solid #fd3d34;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.search-box .header-search-form .search-button:hover,
+.search-box .header-search-form .search-button:active,
+.search-box .header-search-form .search-button:focus {
+    background-color: #fd2910;
+}
+
+.search-box .header-search-form [class^="col-"]:last-child {
+    padding: 0;
+    border-right: none;
+}
+
+.search-box .header-search-form [class^="col-"] i {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-size: 16;
+}
+
+
+/*login*/
+
+.login-wrapper {
+    min-height: 100vh;
+    background-size: cover;
+    background: url("../assets/images/audience-blur-bride-and-groom-1819179.jpg") no-repeat center;
+    position: relative;
+}
+
+.login-wrapper .login-box {
+    position: absolute;
+    width: 400px;
+    z-index: 60;
+}
+
+.login-box-image {
+    height: 250px;
+    background: url("../assets/images/beach-beach-wedding-chairs-169192.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.login-info {
+    padding: 30px 45px;
+    background: #fdfdfd;
+}
+.login-wrapper .login-button {
+    float: none;
+}
+
+.login-google-btn-wrapper {
+    width: 79%;
+    float: left;
+}
+
+.login-facebook-btn-wrapper {
+    width: 16%;
+    float: right;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<div class="login-wrapper">
+    <div class="login-box absolute-center box-shadow">
+        <div class="login-box-image"></div>
+        <div class="login-info">
+            <form class="needs-validation" novalidate action="">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" placeholder="Enter your email">
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="email">Password</label>
+                    <input class="form-control" type="password" placeholder="Enter your password">
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-block login-button">Login</button>
+            </form>
+            <div class="or-divider">
+                <hr class="absolute-center">
+                <span class="absolute-center">Or</span>
+            </div>
+            <div class="clearfix">
+                <div class="login-google-btn-wrapper">
+                    <button class="btn btn-block google-btn">
+                        Login with <i class="fab fa-google"></i>oogle
+                    </button>
+                </div>
+                <div class="login-facebook-btn-wrapper">
+                    <button class="btn btn-block facebook-btn">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="overlay"></div>
+</div>
+</body>
+</html>
